@@ -1,0 +1,136 @@
+@media (min-width: 375px) and (max-width: 667px) {
+  .text-style {
+    text-align: center;
+  }
+
+  .btn-style {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .left-img {
+    order: -1; 
+  }
+  .f-object{
+    max-width: none;
+  }
+  .hr-theme{
+    max-width: none !important;
+    margin: none;
+  }
+
+  .img-text-design {
+    position: relative;
+    margin-left: 0 !important;
+    max-width: 100%;
+    padding: 16px;
+    text-align: left;
+  }
+
+  .img-text-theme{
+    font-size: 36px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .left-img {
+    margin-top: 20px;
+  }
+  .hr-theme{
+    max-width: none !important;
+    margin: none;
+  }
+  .img-text-design {
+    position: relative;
+    margin-left: 0 !important;
+    max-width: 100% !important;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .img-text-theme{
+    font-size: 48px !important;
+    text-align: left;
+  }
+}
+
+.topic-theme{
+  color: #6B3CC9;
+  /* font-family: Poppins; */
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+}
+
+.common-btn{
+  background: #F28D35;
+  border-radius: 4px;
+  display: block;
+}
+
+.f-img{
+  width: 100%; 
+  display: block; 
+  margin: auto;
+}
+
+.nav-pages{
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-background-color{
+  background-color: #6B3CC9
+}
+
+.f-object{
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+.p-text-size{
+  font-size: smaller;
+  margin-bottom: 5px;
+}
+
+.hr-theme{
+  color: #ffffff;
+  border-top: 2px solid #ffffff;
+  max-width: 50%;
+  margin: 20px auto;
+}
+
+.privacy-policy-theme {
+  text-align: center;
+}
+
+.img-text-design{
+  margin-left: 40px;
+  display: flex;
+  max-width: 630px;
+  padding: 24px 40px 32px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+}
+
+.img-text-theme{
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.96px;
+  text-transform: capitalize;
+}
+
+.ul-style{
+  padding-left: 0 !important;
+}
